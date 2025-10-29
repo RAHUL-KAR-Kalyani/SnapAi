@@ -1,4 +1,4 @@
-# Quick.ai — AI SaaS App
+# Snap.Ai — AI SaaS App
 
 A full-stack React + Express application that provides AI-powered content and image tools (article writer, blog title generator, image generation, background/object removal, resume review, community feed). The project is split into `client` (React + Vite) and `server` (Express) folders.
 
@@ -46,6 +46,8 @@ Create `.env` files in `server/` and `client/` (or set in deployment environment
 
 Server (`server/.env`):
 - DATABASE_URL — Postgres/Neon connection string used in [server/utils/db.js](server/utils/db.js)
+- PORT
+- FRONTEND_URL
 - CLOUDINARY_CLOUD_NAME — Cloudinary cloud name used in [server/utils/cloudinary.js](server/utils/cloudinary.js)
 - CLOUDINARY_API_KEY — Cloudinary API key
 - CLOUDINARY_API_Secret — Cloudinary API secret (note: code reads `CLOUDINARY_API_Secret` in [server/utils/cloudinary.js](server/utils/cloudinary.js) — verify capitalization in your env)
