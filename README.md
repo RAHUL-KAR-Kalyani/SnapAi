@@ -4,6 +4,11 @@ A full-stack React + Express application that provides AI-powered content and im
 
 ---
 
+⚠️ Note: Backend is hosted on a free Render tier.  
+It may take 30–60 seconds to wake up after inactivity.
+
+---
+
 ## Repository layout
 
 - client/ — React front-end (Vite)
