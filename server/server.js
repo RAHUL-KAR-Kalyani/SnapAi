@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import 'dotenv/config';
-const db = require('./utils/db');
+const db = require('./utils/db.js');
 import { clerkMiddleware, requireAuth } from '@clerk/express';
 import aiRouter from './routes/aiRoutes.js';
 import connectCloudinary from './utils/cloudinary.js';
