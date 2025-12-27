@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import 'dotenv/config';
-const db = require('./utils/db.js');
+// const db = require('./utils/db.js');
 import { clerkMiddleware, requireAuth } from '@clerk/express';
 import aiRouter from './routes/aiRoutes.js';
 import connectCloudinary from './utils/cloudinary.js';
@@ -42,6 +42,6 @@ app.use('/api/user',userRouter);
 
 // Server
 app.listen(PORT, () => {
-	db();
+	// db();
 	console.log(`Server is running at: http://localhost:${PORT}/`);
 });
